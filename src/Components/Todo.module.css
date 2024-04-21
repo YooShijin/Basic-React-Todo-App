@@ -1,0 +1,36 @@
+.todoHolder {
+  color: white;
+  font-size: large;
+  padding: 1rem 3rem;
+  display: flex;
+  gap: 20px;
+  background-color: rgb(69, 68, 68);
+  width: 62%;
+  box-sizing: border-box;
+  margin-bottom: 5px;
+  border-radius: 3px;
+  backdrop-filter: blur(10px);
+}
+
+.contentBox {
+  margin: 0;
+  padding: 0;
+  width: 70%;
+}
+.inputBox {
+  display: block;
+}
+
+.buttonHolder {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.buttonHolder button {
+  height: 40%;
+}
+
+.completed {
+  text-decoration: line-through;
+}
